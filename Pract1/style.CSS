@@ -1,0 +1,81 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+
+}
+body, p, h1, h2, ul, ol {
+	margin: 0;
+	padding: 0;
+
+}
+.wrapper {
+	margin-bottom: 30px;
+}
+
+.wrapper li {
+	text-align: justify;
+	list-style-position: inside;
+	margin: 10px;
+	
+}
+
+.center {
+	width: 840px;
+	margin: 0 auto;
+	padding: 10px;
+}
+.center h2 {
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+
+#header {
+	background-color: green;
+}
+
+#header h1, #header p {
+	text-align: center;
+	color: white;
+	margin-bottom: 5px;
+}
+
+#services {
+
+}
+
+#contacts {
+	color: white;
+	background-color: rgb(190, 0, 0);
+	text-align: center;
+	
+
+}
+#contacts p{
+	color: white;
+	background-color: rgb(190, 0, 0);
+	text-align: center;
+	margin-bottom: 10px;
+
+}
+
+#company {
+
+}
+#company p {
+	text-align: justify;
+	margin: 10px;
+
+}
+
+#footer{
+	text-align: center;
+	font-size: 13px;
+	color: white;
+	background-color: orangered;
+	padding-top: 100px;
+}

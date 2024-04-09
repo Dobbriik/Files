@@ -1,0 +1,457 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ /* Отключить подчеркивание для всех ссылок и сделать цвет наследуемый */
+body {
+    font-family: 'Inter' , sans-serif;   
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+/*  линк из гугла для шрифта и в бади фф с названием */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* убрать отступы, убрать точки или цифры в списке */
+.header {
+    background-color: #0A0A0A;
+    padding-top: 33px;
+    padding-bottom: 32px;
+    color: #717171;
+    font-size: 24px;
+    line-height: 29px;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+/* max-width: 1200px; задать адаптивную ширину */
+/* margin: 0 auto; сделать отступ справа и слева притягивая контейнер к середине  */
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* justify-content: space-between; отодвинуть друг от друга детей  */
+/* align-items: center; контент по центру */
+.menu-btn{
+    display: none;
+}
+.menu { 
+    display: flex; 
+    flex-grow: 1;
+    flex-basis: 0;  
+}
+/* display: flex;  сделать элементы в строчку */
+.phone{
+    flex-grow: 1;
+    flex-basis: 0;  
+    text-align: right;
+    font-size: 24px;
+    line-height: 29px;
+
+}
+    /* flex-grow: 1; */
+    /* flex-basis: 0;  чудеса надо изучить */
+    /* начальная ширина 0 */
+   /* элемент будет растягиваться, чтобы заполнить доступное пространство */
+
+
+.menu-item { 
+    padding-right: 30px;
+    text-decoration: none;
+}
+
+.headline {
+    background-color: #F5F5F7;
+    text-align: center;
+    padding: 70px 0 40px;
+}
+.title {
+    text-transform: uppercase;
+    margin: 0 0 40px;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 77px; 
+    color: #490E84;
+}
+.headline-img {
+    margin-bottom: 25px;
+}
+.headline-btn {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    color: #fff;
+    background-color: #490E84;
+    border-radius: 30px;
+    padding: 22px 117px 19px;
+}
+
+
+.news {
+    padding: 90px 0 190px;
+}
+
+.news-title,
+.color-title  {
+    margin: 0 0 50px;
+    color: #717171;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 32px;
+    line-height: 39px;
+    font-weight: 700;
+}
+/* text-transform: uppercase; текст в заглавные буквы  */
+.news-info {
+    display: flex;
+    align-items: center;
+}
+
+.news-text p {
+    max-width: 559px;
+    margin: 0 0 30px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 130%;
+    
+}
+.news-text b {
+    max-width: 560px;
+    font-size: 20px;
+    line-height: 26px;
+    display: block;
+}
+
+.ipone-news {
+    margin-left: 190px;
+}
+
+.color {
+    padding-bottom: 150px;
+}
+
+.color-list {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+li.color-item img {
+    margin-bottom: 20px;
+}
+li.color-item h3 {
+    margin: 0 0 10px;
+    color: #0A0A0A;
+    font-weight: 700;
+    line-height: 26 px;
+    font-size: 20px;
+}
+
+li.color-item p {
+    margin: 0;
+    margin-bottom: 150px;
+}
+
+.contacts-inner {
+    display: flex;
+    background-color: #574B63;
+   
+}
+.contacts-title {
+    
+    
+
+}
+
+.contacts-input {
+
+}
+
+.contacts-form {
+    width: 100%;
+    padding: 138px 93px;
+    text-align: center;
+}
+
+.contacts-title {
+    text-align: left;
+    margin: 0 0 60px;
+    text-transform: uppercase;
+    color: #FFF;
+    font-size: 32px;
+    line-height: 39px;
+    font-weight: 700;
+}
+.contacts-input {
+    padding: 10px 0;
+    border: none;
+    border-bottom: 1px solid #F5F5F5;
+    display: block;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #574B63;
+}
+.contacts-form p {
+    color: #FFF;
+    opacity: 50%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    margin: 30px 0;
+    text-align: center;
+}
+
+.contacts-input::placeholder {
+    font-size: 14px;
+    line-height: 18px;
+    font-weight: 400;
+    color: #fff;
+    opacity: 50%;
+    font-family: 'Inter' , sans-serif;   
+}
+
+.contacts-form button {
+    bottom: none;
+    text-transform: uppercase;
+    color: PURPLE;
+    background-color: #fff;
+    padding: 16px 81px;
+    border-radius: 30px;
+    font-weight: 400;
+    font-family: 'Inter' , sans-serif;   
+    line-height: 18px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #0A0A0A;
+}
+
+.footer-inner {
+    display: flex;
+    color: #717171;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+    line-height: 18px;
+    font-size: 14px;
+
+}
+
+.footer-link {
+    flex-basis: 0;
+    flex-grow: 1;
+    
+
+}
+   /* Адаптив */
+   /* max-width: 1200px при каком разрешении будет меняться ставим по убыванию */
+@media (max-width: 1200px){
+    .headline-img {
+        max-width: 100%;
+    }
+    .contacts-inner {
+        display: block;
+    }
+    .contacts-form {
+        width: auto;
+    }
+    .contacts-title {
+        text-align: center;
+    }
+    .contacts-img {
+        width: 100%;
+    }
+    .contacts {
+        background-color: #574B63;
+    }
+}
+@media (max-width: 1100px){
+    .color-list {
+        flex-wrap: wrap;
+    }
+    .color-item {
+        width: 50%;
+    }
+}
+
+@media (max-width: 940px){
+    .ipone-news {
+        display: none;
+    }
+    .news-text b,
+    .news-text p {
+        max-width: 100%;
+    }
+    
+}
+
+@media (max-width: 940px){
+    .news {
+        padding: 50px 0;
+    }
+    .color {
+        padding-bottom: 50px;
+    }
+    .menu {
+        
+    }
+    .phone {
+        text-align: center;
+    }
+    .menu-btn {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background-color: transparent;
+        order: 1;
+        border: none;
+        cursor: pointer;
+        position: relative;
+        z-index: 50 ;
+    }
+    .logo,
+    .phone {
+        position: relative;
+        z-index: 50;
+    }
+    .btn-line {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #fff;
+        height: 2px;
+        transition: .3s ease;
+    }
+    .btn-line:nth-child(1) {
+        top: 0;
+    }
+    .btn-line:nth-child(2) {
+        top: 20px;
+    }
+    .btn-line:nth-child(3) {
+        top: 20px;
+    }
+    .btn-line:nth-child(4) {
+        top: 40px;
+
+    }
+    .menu-open .btn-line:nth-child(1) {
+        transform: scaleX(0);
+    }
+    .menu-open .btn-line:nth-child(2){
+        transform: rotate(45deg);
+    }
+    .menu-open .btn-line:nth-child(3){
+        transform: rotate(-45deg);
+    }
+    .menu-open .btn-line:nth-child(4){
+        transform: scaleX(0);
+    }
+    .menu {
+        position: absolute;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        background-color: #0A0A0A;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        transform: translateY(-100%);
+        transition: .3s ease;
+    }
+    .menu-open .menu {
+        transform: translateY(0%);
+    }
+
+    .menu-item {
+        padding: 50px 0;
+        font-size: 56px;
+    }
+    }
+
+
+@media (max-width: 660px){
+    .color-item {
+        width: 100%;
+    }
+    .color-item img {
+        width: 100%;
+    }
+    .footer-inner {
+        padding: 20px 0;
+        flex-direction: column;
+    }
+    .footer-inner .logo {
+        margin: 15px 0;
+    }
+}
+@media (max-width: 560px){
+    .news-title,
+    .color-title,
+    .contacts-title {
+        font-size: 24px;
+        line-height: 19px;
+
+    }
+    .title {
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 20px;
+
+}
+    .headline-btn {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 13px;
+    padding: 17px 69px 19px;
+}
+    .contacts-form{
+        padding: 95px 61px;
+    }
+}
+
+@media (max-width: 420px){
+    .nav {
+        flex-wrap: wrap;
+
+    }
+    .phone {
+        width: 100%;
+        flex-basis: auto;
+        margin-top: 50px;
+        order: 3;
+    }
+    .menu-item {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 360px){
+    .botton-input {
+        padding: 13px 52px;
+    }
+    .title {
+        font-size: 30px;
+        line-height: 10px;
+    }
+    .headline-btn {
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 11px;
+        padding: 15px 50px 14px;
+}
+}
